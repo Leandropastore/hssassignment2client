@@ -12,55 +12,51 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
         android:text="@string/Encrpyted_Message_Service"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="8pt" />
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <LinearLayout
         android:id="@+id/TextBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="45dp"
         android:orientation="vertical" >
 
         <EditText
-            android:id="@+id/Username"
-            android:layout_width="wrap_content"
+            android:id="@+id/username"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text" >
- 
+            android:ems="10" android:inputType="text">
+
             <requestFocus />
         </EditText>
 
         <EditText
-            android:id="@+id/Password"
-            android:layout_width="wrap_content"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
-            android:ems="10"
             android:inputType="textPassword" />
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/LoginButton"
+        android:id="@+id/loginbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
         android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
         android:text="@string/login_fix" />
 
     <Button
-        android:id="@+id/CancelButton"
+        android:id="@+id/cancelbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/TextBox"
         android:layout_centerVertical="true"
-        android:text="@string/cancel_fix" />
+        android:layout_marginRight="14dp"
+        android:text="@string/canel_fix" />
 
 </RelativeLayout>
