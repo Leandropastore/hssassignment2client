@@ -25,16 +25,19 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int TextBox=0x7f080001;
-        public static final int action_settings=0x7f080006;
-        public static final int cancelbutton=0x7f080005;
-        public static final int loginbutton=0x7f080004;
-        public static final int password=0x7f080003;
-        public static final int textView1=0x7f080000;
-        public static final int username=0x7f080002;
+        public static final int ObtPK=0x7f080003;
+        public static final int Register=0x7f080001;
+        public static final int SRegister=0x7f080002;
+        public static final int SRegisterComponent=0x7f080006;
+        public static final int TextBox=0x7f080000;
+        public static final int action_settings=0x7f080007;
+        public static final int editText1=0x7f080005;
+        public static final int textView1=0x7f080004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int register=0x7f030001;
+        public static final int sregister=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -43,12 +46,16 @@ public final class R {
         public static final int Cancel_fix=0x7f050006;
         public static final int Encrpyted_Message_Service=0x7f050003;
         public static final int Login_button=0x7f050004;
+        public static final int Obtain_Public_Key_fix=0x7f05000b;
+        public static final int Start_Register_fix=0x7f05000c;
+        public static final int Start_Registration_fix=0x7f05000a;
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
         public static final int cancel_fix=0x7f050007;
         public static final int canel_fix=0x7f050008;
         public static final int hello_world=0x7f050001;
         public static final int login_fix=0x7f050005;
+        public static final int register_fix=0x7f050009;
     }
     public static final class style {
         /** 

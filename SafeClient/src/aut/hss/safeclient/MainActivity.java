@@ -10,10 +10,12 @@ import android.widget.EditText;
 
 public class MainActivity extends Activity {
 	
-	EditText username;
-	EditText password;
-	Button login;
-	Button cancel;
+	EditText Username;
+	
+	Button SRegister;
+	Button Register;
+	Button ObtPK;
+	Button SRegisterComponent; 
 	
 	
 	@Override
@@ -21,31 +23,41 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		username = (EditText) findViewById(R.id.username);
-		password = (EditText) findViewById(R.id.password);
+		SRegister = (Button) findViewById(R.id.SRegister);
+		Register = (Button) findViewById(R.id.Register);
+		ObtPK = (Button) findViewById(R.id.ObtPK);
+		SRegisterComponent = (Button) findViewById(R.id.SRegisterComponent);
 		
-		login = (Button) findViewById(R.id.loginbutton);
-		cancel = (Button) findViewById(R.id.cancelbutton);
 		
-		login.setOnClickListener(new View.OnClickListener(){
+		SRegister.setOnClickListener(new View.OnClickListener(){
 
 			@Override
 			public void onClick(View v) {
-				if (v == login){
-					// check username and password to server
-					// 
+				if (v == SRegister){
+					setContentView(R.layout.sregister);
 				}	
 			}		
 		});
-		cancel.setOnClickListener(new View.OnClickListener(){
+		Register.setOnClickListener(new View.OnClickListener(){
 
 			@Override
 			public void onClick(View v) {
-				if (v == cancel){
-					// clear username and password
+				if (v == Register){
+					setContentView(R.layout.register);
 				}	
 			}		
 		});
+		ObtPK.setOnClickListener(new View.OnClickListener(){
+
+			@Override
+			public void onClick(View v) {
+				if (v == ObtPK){
+					
+				}	
+			}		
+		});
+		
+		
 	}
 
 	@Override

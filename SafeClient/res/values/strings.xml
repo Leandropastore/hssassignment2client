@@ -10,5 +10,9 @@
     <string name="Cancel_fix">Cancel</string>
     <string name="cancel_fix">Cancel</string>
     <string name="canel_fix">Cancel</string>
+    <string name="register_fix">Register</string>
+    <string name="Start_Registration_fix">Start Registration</string>
+    <string name="Obtain_Public_Key_fix">Obtain Public Key</string>
+    <string name="Start_Register_fix">Start Register</string>
 
 </resources>

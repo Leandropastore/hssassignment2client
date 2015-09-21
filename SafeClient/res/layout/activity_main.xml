@@ -8,14 +8,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="aut.hss.safeclient.MainActivity" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/Encrpyted_Message_Service"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
     <LinearLayout
         android:id="@+id/TextBox"
         android:layout_width="wrap_content"
@@ -23,40 +15,39 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="45dp"
         android:orientation="vertical" >
-
-        <EditText
-            android:id="@+id/username"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10" android:inputType="text">
-
-            <requestFocus />
-        </EditText>
-
-        <EditText
-            android:id="@+id/password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPassword" />
-
     </LinearLayout>
 
     <Button
-        android:id="@+id/loginbutton"
+        android:id="@+id/Register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="15dp"
-        android:text="@string/login_fix" />
+        android:layout_below="@+id/SRegister"
+        android:layout_centerHorizontal="true"
+        android:text="@string/register_fix" />
 
     <Button
-        android:id="@+id/cancelbutton"
+        android:id="@+id/SRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/TextBox"
-        android:layout_centerVertical="true"
-        android:layout_marginRight="14dp"
-        android:text="@string/canel_fix" />
+        android:layout_alignTop="@+id/TextBox"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Start_Registration_fix" />
+
+    <Button
+        android:id="@+id/ObtPK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/SRegister"
+        android:layout_below="@+id/Register"
+        android:text="@string/Obtain_Public_Key_fix" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Encrpyted_Message_Service"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
