@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SafeClient</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Large Text</string>
+    <string name="First_Contact">First Contact</string>
+    <string name="register">Register</string>
+    <string name="get_public_key">Get Public Key</string>
+    <string name="send">Send</string>
+</resources>
